@@ -6,7 +6,6 @@ describe("Plane", function() {
   });
 
   it("should be in the air when created", function() {
-
     expect(plane.isFlying).toBe(true);
   });
 
@@ -20,5 +19,4 @@ describe("Plane", function() {
     plane.takeOff();
     expect(plane.isFlying).toBe(true);
   });
-
 });
