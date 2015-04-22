@@ -20,5 +20,3 @@ Airport.prototype.checkIfFull = function() {
     this.full = false;
   };
 };
-
-
