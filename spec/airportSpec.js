@@ -1,6 +1,5 @@
 describe("Airport ", function(){
   var airport;
-  // var plane;
 });
 
   beforeEach(function() {
@@ -48,10 +47,3 @@ describe("Airport ", function(){
     airport.checkIfFull();
     expect(airport.full).toBe(true);
   });
-
-  // it("doesn't allow any more than planes to land when full", function() {
-  //   fillAirport();
-  //   expect(function() {
-  //     airport.land(plane);
-  //   }).toThrow(new Error("Airport is full"));
-  // });
